@@ -46,7 +46,7 @@ jobs:
           path: dist/
 
       - name: Upload to itch.io
-        uses: rthery/butler-publish-itchio-action@v1.1.1
+        uses: maxime_mlly/butler-publish-itchio-action@v1.1.1
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: html5
